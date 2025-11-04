@@ -1,0 +1,21 @@
+Zadanie 1
+1
+Został użyte typy
+String - przechowuje ciąg znaków
+int - przechowuje liczby
+double- przechowuje liczby zmiennoprzecinkowe
+bool - liczby z dużą ilością cyfr po przecinku
+
+2
+Został użyte operatory po cenaPoRabacie odejmowania przypisania mnożenia oraz dzielenia.
+
+3
+W zmiennej komunikat zostanie wyświetlone "Aplikacja sklep online ma 150 produktów"
+
+4
+Wartość czyPolecana będzie true ponieważ ocena jest równa lub więszka 4.5 oraz czyDostepna=true
+
+5
+Użytu tutaj decimal gdyż podczas wykonywania obliczeń jest bardziej precyzyjny.
+
+ 
