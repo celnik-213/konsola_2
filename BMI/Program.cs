@@ -1,13 +1,17 @@
-﻿namespace BMI
-{
-   class KalkulaotrBMI
+﻿ public class KalkulaotrBMI
     {
-        public static double obliczBMI(double waga, double wzrost)
+        private double _wynikBMI;
+        public double WynikBMI
+        {
+            get { return _wynikBMI; }
+            set { _wynikBMI = value; }
+        }
+        public double obliczBMI(double waga, double wzrost)
         {
             wzrost = wzrost / 100;
             return waga / (wzrost * wzrost);
         }
-        public static string ocenaBMI(double bmi)
+        public string ocenaBMI(double bmi)
         {
             if (bmi < 18.5)
             {
@@ -26,17 +30,28 @@
                 return "Otyłość";
             }
         }
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Podaj swoją wagę w kilogramach: ");
-            double waga = double.Parse(Console.ReadLine());
-            Console.WriteLine("Podaj swój wzrost w centymetrach: ");
-            double wzrost = double.Parse(Console.ReadLine());
-            double bmi = obliczBMI(waga, wzrost);
-            Console.WriteLine($"Twoje BMI wynosi: {bmi}");
-            string wynik = ocenaBMI(bmi);
-            Console.WriteLine($"Ocena BMI: {wynik}");
+        
+    }
 
-        }
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+
+        var kalkulator = new KalkulaotrBMI(); 
+        Console.WriteLine("Podaj swoją wagę w kilogramach: ");
+        double waga = double.Parse(Console.ReadLine());
+        Console.WriteLine("Podaj swój wzrost w centymetrach: ");
+        double wzrost = double.Parse(Console.ReadLine());
+        double bmi = kalkulator.obliczBMI(waga, wzrost);
+        Console.WriteLine($"Twoje BMI wynosi: {bmi}");
+        string wynik = kalkulator.ocenaBMI(bmi);
+        Console.WriteLine($"Ocena BMI: {wynik}");
+
+        kalkulator.WynikBMI = bmi;
+        double wynikk = kalkulator.WynikBMI;
+
+
     }
 }
