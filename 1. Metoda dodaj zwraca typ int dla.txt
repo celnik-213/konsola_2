@@ -1,0 +1,5 @@
+1. Metoda dodaj zwraca typ int dla zmiennej a oraz b ma dwa parametry.
+2. LiczbaOperacji ma prywatny seter dla spójności danych aby użytkownik nie mogł swobodnie ustawić jej wartości dla poprawnego działania programu.
+3. LiczbaOperacji po wykonaniu kodu będzie miała wartość równą 3
+4. Metoda Podziel(10,0) da nam wynik równy 0 i LiczbaOperacji się nie zwiększy
+5. Metodę ResetujLicznik można wywołać kalkulator.ResetujLicznik(); oraz wartość LiczbaOperacji będzie wynosiła 0.
