@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bankaccount", "Bankaccount\Bankaccount.csproj", "{7195BDA9-AADA-4084-9B01-ADD9766C26E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polimorfizm", "polimorfizm\polimorfizm.csproj", "{D20274F0-14C6-48B5-8AE6-FB43E61BC1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7195BDA9-AADA-4084-9B01-ADD9766C26E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7195BDA9-AADA-4084-9B01-ADD9766C26E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7195BDA9-AADA-4084-9B01-ADD9766C26E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20274F0-14C6-48B5-8AE6-FB43E61BC1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20274F0-14C6-48B5-8AE6-FB43E61BC1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20274F0-14C6-48B5-8AE6-FB43E61BC1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20274F0-14C6-48B5-8AE6-FB43E61BC1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
