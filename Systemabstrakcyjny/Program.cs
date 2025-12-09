@@ -52,7 +52,7 @@ class KontoOszczednosciowe : KontoBankowe
     }
     public override decimal ObliczOprocentowanie()
     {
-        return Saldo * 0.05m; // 5% rocznie
+        return Saldo * 0.05m; 
     }
 }
 class KontoStudenckie : KontoBankowe
@@ -63,7 +63,7 @@ class KontoStudenckie : KontoBankowe
     }
     public override decimal ObliczOprocentowanie()
     {
-        return Saldo * 0.02m; // 2% rocznie
+        return Saldo * 0.02m; 
     }
 }
 class KontoFirmowe : KontoBankowe 
